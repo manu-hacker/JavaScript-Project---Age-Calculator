@@ -6,10 +6,8 @@
     box-sizing:border-box;
 }
 body{
-    background-image: url("background.jpg") ; 
-    height: 50%;
-    width: 120px;
-    overflow: hidden;
+   
+   background-color:#DDDDDD;
 
 }
 .contain{
