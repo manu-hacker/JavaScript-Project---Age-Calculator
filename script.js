@@ -38,10 +38,11 @@ function ageCalculate(){
                    "hi "
                 );
             }
-        if( birthDetails.date >= 30 &&
-            birthDetails.month == 02 ){
+        if( isNaN(birthDetails.date)  &&
+            (isNaNbirthDetails.month) && isNaN(birthDetails.year){
             alert("error");
             displayResult("...","...","...");
+                return;
         }
           
            birthYear = currentYear - birthDetails.year;
