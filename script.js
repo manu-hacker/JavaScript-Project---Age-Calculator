@@ -33,14 +33,11 @@ function ageCalculate(){
             displayResult("...","...","...");
             return;
         }
-            if( birthDetails.date > 28 && birthDetails.month == 2   ){
-                console.log(
-                   "hi "
-                );
-            }
+           
+            
         if( isNaN(birthDetails.date)  &&
-            (isNaNbirthDetails.month) && isNaN(birthDetails.year){
-            alert("error");
+            isNaN(birthDetails.month) && isNaN(birthDetails.year){
+            alert("Oops you hit the wrong date , Please check again your date");
             displayResult("...","...","...");
                 return;
         }
